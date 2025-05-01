@@ -9,33 +9,38 @@ display: flex;
 flex-wrap: wrap;
 margin: 3px;
 flex: 1 1 100vw;
+
 }
 
 header {
 display: flex;
-margin: 3px;
+margin: 0;
 flex: 1 1 100vw;
-background: #a1a1a1;
+background: #6b4933;
+justify-content: center;
+align-items: center;
+position: relative;
+height: 45px; /* altura fixa */
 }
 
 nav {
 display: flex;
 margin: 3px;
-flex: 1 1 100vw;
+flex: 1 1 200px;
 background: #a1a1a1;
 }
 
 main {
 display: flex;
 margin: 3px;
-flex: 1 1 100vw;
+flex: 20 1 500px;
 background: #a1a1a1;
 }
 
 aside {
 display: flex;
 margin: 3px;
-flex: 1 1 100vw;
+flex: 1 1 200px;
 background: #a1a1a1;
 }
 
@@ -43,5 +48,21 @@ footer {
 display: flex;
 margin: 3px;
 flex: 1 1 100vw;
-background: #a1a1a1;
+background: #6b4933;
+height: 35px;
+padding: 30px;
+justify-content: center;
+}
+
+.logo {
+    height: 40px;
+    position: absolute;
+    right: 20px;  /* distância da borda direita */
+    top: 50%;
+    transform: translateY(-50%); /* centraliza verticalmente */
+}
+
+.title {
+ color: rgb(236, 164, 6);
+ 
 }

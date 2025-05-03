@@ -5,6 +5,7 @@
 
 body {
     background-color: rgb(85, 18, 76);
+    
  
 }
 a {
@@ -18,12 +19,20 @@ a:hover {
 }
 
 .logo {
+    height: 115px;
+    margin: 40px;
+    margin-top: 46px;
+    
+ }
+
+.titulo {
     color: rgb(238, 147, 10);
     font-size: 24px;
     text-transform: uppercase;
     letter-spacing: 4px;
+    margin-right: 50vh;
 }
-
+ 
 nav {
     display: flex;
     justify-content: space-around;
@@ -40,7 +49,7 @@ nav {
 
 .nav-list li {
     letter-spacing: 3px;
-    margin-left: 32px;
+    margin: 50px;
 }
 
 .mobile-menu {
@@ -59,6 +68,11 @@ nav {
 @media (max-width: 999px) {
     body {
         overflow-x: hidden;
+    }
+
+    .logo {
+        height: 85px;
+
     }
     .nav-list {
         position: absolute;
@@ -97,28 +111,19 @@ nav {
     }
 }
 
-aside {
-    display: flex;
-    margin: 3px;
-    flex: 1 1 200px;
-    color: #fff;
-    
-    }
-
 main {
         display: flex;
         color: #fff;
-        margin: 3px;
+        margin: 3vh;
         flex: 20 1 500px;
         }
 
-footer {
+footer {  
             display: flex;
             margin: 3px;
             flex: 1 1 100vw;
-            background: #6b4933;
             height: 35px;
             padding: 30px;
             justify-content: center;
-            background: rgb(94, 20, 84); 
+            background: rgb(94, 20, 84);
             }        

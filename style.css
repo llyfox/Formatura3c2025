@@ -65,7 +65,7 @@ nav {
     margin: 8px;  
 }
 
-@media (max-width: 999px) {
+@media (max-width: 720px) {
     body {
         overflow-x: hidden;
     }
